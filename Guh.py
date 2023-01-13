@@ -18,7 +18,7 @@ while True: #Same before
     except ValueError:
         print('Det er ikke et nummer din kejle') #it's not an input... Do you not learn from your mistakes?
 
-summer = int(etTal)+int(etGodTal #Lave ens input om til int så de kan plusses sammen
+summer = int(etTal)+int(etGodTal) #Lave ens input om til int så de kan plusses sammen
 
 
 print('Summen af ', etTal, 'og ', etGodTal, 'tilsammen giver', summer, '. Du er så dum', navnet) #print svar og end
