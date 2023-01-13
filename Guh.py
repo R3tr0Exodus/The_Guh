@@ -1,24 +1,25 @@
 navnet = input('Skriv navn: ')
 print('Dit navn er', navnet,'?','Ad...')
 
-while True:
-    etTal = input("Gib Number: ")
+
+while True: #loop indtil du giver int
+    etTal = input("Gib Number: ") #dit input
     try:
-        val = int(etTal)
+        val = int(etTal) #Er dit value input et nummer/int?
         break;
     except ValueError:
-        print('det er ikke et nummber din kejle')
+        print('det er ikke et nummber din kejle') #It's not an int
 
-while True:
-    etGodTal = input('Gib Another Number: ')
+while True: #Same before
+    etGodTal = input('Gib Another Number: ') #dit andet input
     try:
-        val = int(etGodTal)
+        val = int(etGodTal) #er dit andet input et nummer/int?
         break;
     except ValueError:
-        print('Det er ikke et nummber din kejle')
+        print('Det er ikke et nummber din kejle') #it's not an input... Do you not learn from your mistakes?
 
-summer = int(etTal)+int(etGodTal)
+summer = int(etTal)+int(etGodTal #Lave ens input om til int så de kan plusses sammen
 
 
-print('Summen af ', etTal, 'og ', etGodTal, 'tilsammen giver', summer, '. Du er så dum', navnet)
+print('Summen af ', etTal, 'og ', etGodTal, 'tilsammen giver', summer, '. Du er så dum', navnet) #print svar og end
 
